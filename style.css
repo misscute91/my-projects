@@ -1,0 +1,21 @@
+/*
+Theme Name: DRINKSCALCULATOR
+Theme URI: http://www.drinks.ng
+Author: drinks.ng
+Author URI: http://www.drinks.ng
+
+*/
+
+.post-edit-link{
+
+  font-size: 20px;
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  position: fixed;
+  top: 200px;
+  left: 10px;
+  z-index:2000;
+}
+
+

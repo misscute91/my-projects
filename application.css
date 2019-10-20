@@ -1,0 +1,14 @@
+/* Add button implementation for step 2 */
+.hide-element{
+	display:none !important;
+}
+.show-element{
+	display: inline-block !important;
+}
+.basket_categories{
+	text-transform: capitalize;
+}
+.pro-cat .name, .pro-cat .sup-title{
+	text-transform: capitalize;
+}
+

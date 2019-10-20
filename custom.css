@@ -1,0 +1,183 @@
+html { margin: 0 !important; }
+.ui-menu .ui-menu-item-wrapper{
+    display: block;
+    padding: 8px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ui-widget.ui-widget-content{
+    border: 1px solid #d6d9e7;
+}
+
+.ui-state-active, 
+.ui-widget-content .ui-state-active, 
+.ui-widget-header .ui-state-active, 
+a.ui-button:active, 
+.ui-button:active, 
+.ui-button.ui-state-active:hover{
+    background: #f8f9fa;
+    border-color:transparent;
+}
+
+.ui-datepicker{
+    width: 23em;
+}
+
+.ui-widget.ui-widget-content{
+    border:1px solid rgba(96, 78, 171, 0.15);
+    padding: .4em .4em;
+}
+
+.ui-datepicker .ui-datepicker-header{
+    background: #F4F5F9;
+    border:none;
+}
+
+.ui-datepicker .ui-datepicker-title{
+    line-height: 2.5em;
+}
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next{
+    width: 2.8em;
+    height: 2.7em;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    border:none;
+    width: 40px;
+    height: 40px;
+    /border-radius: 100%;/
+    text-align: center;
+    line-height: 23px;
+    font-size: 12px;
+    font-weight: 300;
+     font-family: 'Open Sans', sans-serif;
+}
+
+.ui-datepicker td span, .ui-datepicker td a{
+    padding: 0.7em;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus{
+    border:1px solid rgba(96, 78, 171, 0.15);
+    background: #F4F5F9;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    background: #f39c12;
+    color:#fff;
+}
+
+.ui-datepicker td{
+    padding: 2px;
+}
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 60px;
+    font-size: 17px;
+}
+
+/** snackbar **/
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        background: #F96432;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 60px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 60px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 60px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 60px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+/** snackbar **/
+.lost_your_passowrd{
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+}
+#agent_form .error, #pay-form .error{
+    color:#f00;
+}
+.loading-msg p{
+    padding: 20px ;
+    background-color:#fff;
+}
+#location_of_event_text{
+    display: none;
+}
+.reg-error{
+    padding: 20px;
+border: 1px solid #f00;
+color: #f00;
+font-weight: bold;
+background-color: #fff;
+}
+.main-pro-container .pro-content .prod .vendor-name {
+    padding: 5px 8px;
+    background: #F96432;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: #fff;
+    display: inline-block;
+}
+.vendor-sel-title{
+    padding-left: 10px;
+    font-weight: bold;
+}
+.vendor-sel{
+    padding-top: 0;
+    padding-left: 10px;
+}
+.vendor_list{
+    text-align:center;
+}
+.vendor_list p{
+padding: 5px;
+ padding-left: 5px;
+ background-color: #ccc;
+ border-radius: 15px;
+ padding-left: 10px;
+}
+.main-pro-container .basket .sup-title span{text-transform: capitalize;}
+.sp-replacer{ margin-top: 8px;}
+.banner .pro-cont .title { text-align: center; }
+.services-bottle{ margin: 0;} 
+.dark-border{ border: 1px solid #000; } 
+.update-prices-text{color:#f00;margin-top:5px}
+
+
